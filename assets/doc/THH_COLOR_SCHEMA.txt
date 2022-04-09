@@ -1,0 +1,8 @@
+Colour Schema of The Healthy Humans
+1. Fade Teal Color: #A3F3CC
+2. Teal Color: #32E184
+3. Dark Teal Color: #047865
+4. Green: #207B12
+5. Dark Blue Color: #07607E
+6. Light Blue Color: #0C7DCB
+7. Title Green Color: #009484

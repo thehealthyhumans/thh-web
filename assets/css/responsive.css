@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+    .service-col-two {
+        margin: 2rem 0 !important;
+    }
+
+    .section-two-content {
+        margin-top: 1rem;
+    }
+
+    .hero-banner img {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-dark #header-wrap.fixed-header {
+        background: #0c2543 !important;
+    }
+
+    div#navbarNav {
+        background: #0c2543 !important;
+        padding: 1rem 0;
+        border-radius: 10px;
+    }
+
+    .site-header.navbar-dark .navbar-nav .nav-link {
+        color: #ffffff;
+    }
+
+    .layer-zero-text h2 {
+        font-size: 4rem;
+    }
+
+    .layer-one-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .page-title h4 {
+        font-size: 2.5rem;
+    }
+
+    .section-two-content h2, 
+    .section-three-content h2, 
+    .home-section-four-title h2, 
+    .home-section-five-title h2, 
+    .home-section-seven-title h2 {
+        font-size: 2rem;
+    }
+}
