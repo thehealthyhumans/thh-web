@@ -778,3 +778,30 @@ footer {
 }
 
 /* WHATSAPP FLOAT CSS ENDS */
+
+/* CALL FLOAT CSS STARTS */
+
+.call-float{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 100px;
+	right: 0.5rem;
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+  	font-size: 34px;
+	box-shadow: 2px 2px 3px #999;
+  	z-index: 100;
+}
+
+.call-float:hover {
+	color: #fff;
+}
+
+.my-call-float{
+	margin-top:16px;
+}
+
+/* CALL FLOAT CSS ENDS */
