@@ -183,7 +183,7 @@ header .navbar-nav .nav-item {
     background-color: #FBFAFF;
 }
 
-.section-two-image img {
+.section-two-image img, .section-offer-image img {
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     box-shadow: 3px 4px 15px #07607e78;
@@ -193,14 +193,14 @@ header .navbar-nav .nav-item {
     display: block;
 }
 
-.section-two-content small, .section-three-content small {
+.section-two-content small, .section-three-content small, .section-offer-content small {
     color: #32E184;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1rem;
 }
 
-.section-two-content h2, .section-three-content h2 {
+.section-two-content h2, .section-three-content h2, .section-offer-content h2 {
     color: #07607E;
     text-transform: capitalize;
     font-weight: 800;
@@ -208,11 +208,11 @@ header .navbar-nav .nav-item {
     margin-bottom: 2rem;
 }
 
-.section-two-content p, .section-three-content p {
+.section-two-content p, .section-three-content p, .section-offer-content p {
     color: #4A5764;
 }
 
-.section-two-btn {
+.section-two-btn, .section-offer-btn {
     margin-top: 1.5rem;
 }
 
@@ -368,10 +368,20 @@ header .navbar-nav .nav-item {
 }
 /* HOME SECTION FIVE CSS ENDS */
 
+/* HOME SECTION OFFER CSS STARTS */
+
+.home-section-offer {
+    padding: 120px 0;
+    /* background-color: #FBFAFF; */
+}
+
+/* HOME SECTION OFFER CSS ENDS */
+
 /* HOME SECTION SIX CSS STARTS */
 
 .home-section-six {
     padding: 120px 0;
+    background-color: #FBFAFF;
 }
 
 .home-section-six-title h6 {
@@ -431,6 +441,7 @@ span.badge {
     margin: 0 10px;
     padding: 1rem;
     transition: 0.5s ease;
+    background-color: #ffffff;
 }
 
 h5.package-title {
@@ -471,7 +482,6 @@ ul.package-list li i {
 
 .home-section-seven {
     padding: 120px 0;
-    background-color: #FBFAFF;
 }
 
 .home-section-seven-title h6 {
